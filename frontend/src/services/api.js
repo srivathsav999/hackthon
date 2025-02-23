@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:3007/api/chat';
+const API_BASE_URL = 'https://hackthon-backend-rb7g.onrender.com/api/chat';
 
 const api = {
   async sendMessage(message) {
